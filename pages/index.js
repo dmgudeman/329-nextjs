@@ -2,6 +2,11 @@ import {MongoClient} from 'mongodb';
 import MeetupList from '../components/meetups/MeetupList';
 
 
+     // https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Stadtbild_M%C3%BCnchen.jpg/1280px-Stadtbild_M%C3%BCnchen.jpg
+
+
+
+
 export default function HomePage(props) {
   return <MeetupList meetups={props.meetups} />;
 }
